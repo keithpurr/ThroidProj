@@ -59,5 +59,5 @@ xcuserdata/
 *.xcscmblueprint
 
 # Project specific
-*.app
 thyroid_ios_xcode7.2/
+*.app
