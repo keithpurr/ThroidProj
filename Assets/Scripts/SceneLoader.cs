@@ -61,9 +61,10 @@ public class SceneLoader : MonoBehaviour, IPointerClickHandler {
 		} else if (presentIndex == 4) {
 			if (gameObject.name == "Start New") {
 				SceneManager.LoadScene (0);
-			} else if (gameObject.name == "Email Report") {
-				SceneManager.LoadScene (5);
-			}
+			} 
+//			else if (gameObject.name == "Email Report") {
+//				SceneManager.LoadScene (5);
+//			}
 			DataManager.Instance.DestroyOldManager ();
 //			if (gameObject.name == "Move to 3D")
 //				SceneManager.LoadScene (4);

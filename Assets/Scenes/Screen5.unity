@@ -719,7 +719,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11433478, guid: a38528e709f774699bbc019aa9e42c0a, type: 2}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11433478, guid: a38528e709f774699bbc019aa9e42c0a, type: 2}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -728,10 +728,10 @@ Prefab:
     - target: {fileID: 11433478, guid: a38528e709f774699bbc019aa9e42c0a, type: 2}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 492443298}
     - target: {fileID: 11433478, guid: a38528e709f774699bbc019aa9e42c0a, type: 2}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetFromAddress
+      value: SetEmailAddress
       objectReference: {fileID: 0}
     - target: {fileID: 11433478, guid: a38528e709f774699bbc019aa9e42c0a, type: 2}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

@@ -17,6 +17,7 @@ public class SaveReportScreen : MonoBehaviour {
 		// prototype on Mac
 		Application.CaptureScreenshot("/Users/Keith/Library/Application Support/Qi Liu/Thyroid/report.png");
 		// mobile version
+		// can't do save to camera roll withour plug-in
 //		Application.CaptureScreenshot("report.png");
 		Debug.Log ("report saved to path: " + Application.persistentDataPath + "/report.png");
 	}
